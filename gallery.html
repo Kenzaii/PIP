@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Pink in Public</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/logo.png" alt="Pink in Public">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#events">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="http://wa.me/+6592980346" target="_blank" class="cta-button">
+                    <i class="fab fa-whatsapp"></i> Contact Us
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Gallery Header -->
+    <section class="gallery-header">
+        <h1>Our Gallery</h1>
+        <p>Explore our events and memories</p>
+    </section>
+
+    <!-- Gallery Filter -->
+    <div class="gallery-filter">
+        <select id="yearFilter" class="filter-select">
+            <option value="all">All Years</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+        </select>
+        <select id="monthFilter" class="filter-select">
+            <option value="all">All Months</option>
+            <option value="01">January</option>
+            <option value="02">February</option>
+            <!-- Add more months -->
+        </select>
+    </div>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-grid">
+        <!-- Gallery items will be dynamically added here -->
+        <div class="gallery-folder" data-year="2025" data-month="02">
+            <h3>February 2025</h3>
+            <div class="gallery-images">
+                <!-- Images will be added here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="company-info">
+                <p>Digital Marketing Agency</p>    
+            </div>
+            <div class="social-links">
+                <a href="https://t.me/Smartsyscapital" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="https://www.instagram.com/pink.in.public/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html> 
